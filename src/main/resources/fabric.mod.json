@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "lostmarbleadditions",
+	"version": "${version}",
+	"name": "LostMarble Additions",
+	"description": "Mod created by the mad marbled mind of Jester! This serves as practice for me, introducing small ore type additions.",
+	"authors": [
+		"GetJinxxedd"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lostmarbleadditions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jesterslover.lostmarble.LostMarbleAdditions"
+		],
+		"fabric-datagen": [
+			"net.jesterslover.lostmarble.LostMarbleAdditionsDataGenerator"
+		]
+	},
+	"mixins": [
+		"lostmarbleadditions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
