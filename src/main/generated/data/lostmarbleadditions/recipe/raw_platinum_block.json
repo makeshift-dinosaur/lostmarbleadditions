@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "platinum",
+  "key": {
+    "R": "lostmarbleadditions:raw_platinum"
+  },
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "lostmarbleadditions:raw_platinum_block"
+  }
+}

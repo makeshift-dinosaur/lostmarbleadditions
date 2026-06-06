@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "blocks",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "platinum",
+  "ingredient": "lostmarbleadditions:deepslate_platinum_ore",
+  "result": {
+    "id": "lostmarbleadditions:platinum"
+  }
+}

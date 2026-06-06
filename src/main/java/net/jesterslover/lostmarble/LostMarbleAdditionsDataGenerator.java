@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.jesterslover.lostmarble.datagen.ModBlockLootTableProvider;
 import net.jesterslover.lostmarble.datagen.ModBlockTagsProvider;
 import net.jesterslover.lostmarble.datagen.ModModelProvider;
+import net.jesterslover.lostmarble.datagen.ModRecipeProvider;
 
 public class LostMarbleAdditionsDataGenerator implements DataGeneratorEntrypoint {
 	@Override
@@ -14,5 +15,6 @@ public class LostMarbleAdditionsDataGenerator implements DataGeneratorEntrypoint
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModBlockTagsProvider::new);
 		pack.addProvider(ModBlockLootTableProvider::new);
+		pack.addProvider(ModRecipeProvider::new);
 	}
 }

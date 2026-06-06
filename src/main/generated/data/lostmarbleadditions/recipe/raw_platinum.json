@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "platinum",
+  "ingredients": [
+    "lostmarbleadditions:raw_platinum_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "lostmarbleadditions:raw_platinum"
+  }
+}
