@@ -2,6 +2,8 @@ package net.jesterslover.lostmarble;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
+import net.jesterslover.lostmarble.datagen.ModBlockLootTableProvider;
+import net.jesterslover.lostmarble.datagen.ModBlockTagsProvider;
 import net.jesterslover.lostmarble.datagen.ModModelProvider;
 
 public class LostMarbleAdditionsDataGenerator implements DataGeneratorEntrypoint {
@@ -10,5 +12,7 @@ public class LostMarbleAdditionsDataGenerator implements DataGeneratorEntrypoint
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModModelProvider::new);
+		pack.addProvider(ModBlockTagsProvider::new);
+		pack.addProvider(ModBlockLootTableProvider::new);
 	}
 }
