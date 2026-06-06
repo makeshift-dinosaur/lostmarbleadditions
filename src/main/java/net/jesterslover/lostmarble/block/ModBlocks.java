@@ -16,12 +16,17 @@ import java.util.function.Function;
 
 public class ModBlocks {
     public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
-            properties -> new Block(properties.strength(4f)
-                    .requiresCorrectToolForDrops().sound(SoundType.COPPER)));
-    public static final Block PLATINUM_ORE = registerBlock("platinum_ore",
             properties -> new Block(properties.strength(5f)
+                    .requiresCorrectToolForDrops().sound(SoundType.COPPER)));
+    public static final Block RAW_PLATINUM_BLOCK = registerBlock("raw_platinum_block",
+            properties -> new Block(properties.strength(5f)
+                    .requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final Block PLATINUM_ORE = registerBlock("platinum_ore",
+            properties -> new Block(properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.STONE)));
-
+    public static final Block DEEPSLATE_PLATINUM_ORE = registerBlock("deepslate_platinum_ore",
+            properties -> new Block(properties.strength(6f)
+                    .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
 
     private static Block registerBlock(String name, Function<BlockBehaviour.Properties, Block> function) {

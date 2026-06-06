@@ -30,7 +30,9 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.lostmarbleadditions.platinum_blocks"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModBlocks.PLATINUM_BLOCK);
+                        output.accept(ModBlocks.RAW_PLATINUM_BLOCK);
                         output.accept(ModBlocks.PLATINUM_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE);
 
 
                     }).build());

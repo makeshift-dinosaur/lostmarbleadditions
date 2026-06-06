@@ -19,6 +19,8 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
         blockModelGenerators.createTrivialCube(ModBlocks.PLATINUM_BLOCK);
         blockModelGenerators.createTrivialCube(ModBlocks.PLATINUM_ORE);
+        blockModelGenerators.createTrivialCube(ModBlocks.RAW_PLATINUM_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.DEEPSLATE_PLATINUM_ORE);
 
 
     }
