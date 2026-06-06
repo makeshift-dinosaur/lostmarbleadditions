@@ -2,6 +2,7 @@ package net.jesterslover.lostmarble.datagen;
 
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
+import net.jesterslover.lostmarble.block.ModBlocks;
 import net.jesterslover.lostmarble.item.ModItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
@@ -16,6 +17,9 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators blockModelGenerators) {
+        blockModelGenerators.createTrivialCube(ModBlocks.PLATINUM_BLOCK);
+        blockModelGenerators.createTrivialCube(ModBlocks.PLATINUM_ORE);
+
 
     }
 

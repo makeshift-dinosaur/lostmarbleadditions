@@ -1,6 +1,10 @@
 {
-  "item.lostmarbleadditions.platinum": "Platinum",
+  "item.lostmarbleadditions.platinum": "Platinum Ingot",
   "item.lostmarbleadditions.raw_platinum": "Raw Platinum",
+
+  "block.lostmarbleadditions.platinum_block": "Block of Platinum",
+  "block.lostmarbleadditions.platinum_ore": "Platinum Ore",
+
   "creativemodetab.lostmarbleadditions.platinum_items": "Platinum Addition Items",
   "creativemodetab.lostmarbleadditions.platinum_blocks": "Platinum Additions Blocks"
 
